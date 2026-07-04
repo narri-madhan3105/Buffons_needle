@@ -11,23 +11,18 @@ Buffons Needle , a classical Geometrical Probability problem solved by Monte Car
 
 $$
 \begin{aligned}
-P1 &= \frac{\int_0^{\pi/2} l \cos\theta \, d\theta}{\int_0^{\pi/2} t \, d\theta} \\
+P &= \frac{\int_0^{\pi/2} l \cos\theta \, d\theta}{\int_0^{\pi/2} t \, d\theta} \\
 &= \frac{l}{t} \cdot \frac{\int_0^{\pi/2} \cos\theta \, d\theta}{\int_0^{\pi/2} d\theta} \\
 &= \frac{l}{t} \cdot \frac{1}{\frac{\pi}{2}} \\
 &= \frac{2l}{t\pi}.
 \end{aligned}
 $$
 
-$$
-\begin{align}
-P_2 &= \int_0^1 \frac{2\theta(x)}{\pi} \, dx \\
-&= \frac{2}{\pi} \int_0^1 \cos^{-1}(x) \, dx \\
-&= \frac{2}{\pi} \cdot 1 = \frac{2}{\pi}.
-\end{align}
-$$
 
-Multiplying both results, we obtain $P = P_1 \cdot P_2 = \frac{l}{t} \cdot \frac{2}{\pi} = \frac{2l}{t\pi}$ as above.
+
+Considering needle length= distance between parallel lines i.e, _l_ = _t_
+
 
 $$
-P = P_1 \cdot P_2 = 1 \cdot \frac{2}{\pi} = \frac{2}{\pi}
+P   = \frac{2}{\pi}
 $$
