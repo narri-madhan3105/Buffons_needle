@@ -1,8 +1,19 @@
-# Buffons_needle
-Buffons Needle , a classical Geometrical Probability problem solved by Monte Carlo Simulation
-# Buffons_needle
-## contents
-## introduction
+# Estimating $\pi$ using Buffon's needle- A Monte Carlo Simulation
+## Introduction:
+~ Buffons Needle , a classical _Geometrical Probability_ problem solved by *Monte Carlo Simulation*
+This method in which drop needles on parallel lines is one of the first Monte Carlo methods for estimating $\pi$ .
+Infact Buffon's needle was one of the earliest problems in geometric probability to be solved.
+
+The formula after simplifications and assumptions comes down to
+
+$$
+P   = \frac{2}{\pi}
+$$ 
+
+Let me go through you a small derivation for deeper understanding of method
+
+ where P is the final probability that a needle randomly dropped onto a surface will land across one of the parallel lines
+
 keywords seo value
 deeper we go more technical
 good diagrams
