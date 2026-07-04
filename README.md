@@ -1,3 +1,4 @@
+
 # Estimating $\pi$ using Buffon's needle- A Monte Carlo Simulation
 ## Introduction:
 ~ Buffons Needle , a classical _Geometrical Probability_ problem solved by *Monte Carlo Simulation*
@@ -11,6 +12,7 @@ P   = \frac{2}{\pi}
 $$ 
 
 Let me go through you a small derivation for deeper understanding of method
+<img width="402" height="358" alt="buffon ggl" src="https://github.com/user-attachments/assets/c6e4f2f7-4e82-4c22-856f-453220d97676" />
 
  where P is the final probability that a needle randomly dropped onto a surface will land across one of the parallel lines
 
