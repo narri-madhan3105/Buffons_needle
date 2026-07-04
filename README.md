@@ -39,7 +39,8 @@ P   = \frac{2}{\pi}
 $$
 
 # Estimation of $\pi$ : Finding probability
-<img width="2000" height="2000" alt="Black and White Bold Typographic Music Studio Logo" src="https://github.com/user-attachments/assets/7a6299d9-678a-4559-927a-bcf231abddf9" />
+<img width="2000" height="2000" alt="Black and White Bold Typographic Music Studio Logo copy222" src="https://github.com/user-attachments/assets/057ae142-8cd2-4955-bbef-f489d9d0ddb8" />
+
 ## Algorithmic approach through Code:
 
 (1) Find the min and max y coordinates of the needle 
@@ -51,3 +52,5 @@ $$
 (4) If the result from 2 and 3 are not equal, needle does not intersect with lines
 
 (5) If the result from 2 and 3 are equal, needle intersect with line
+
+# Variance and Error Analysis:
