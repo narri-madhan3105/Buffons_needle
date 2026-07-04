@@ -39,3 +39,15 @@ P   = \frac{2}{\pi}
 $$
 
 # Estimation of $\pi$ : Finding probability
+<img width="2000" height="2000" alt="Black and White Bold Typographic Music Studio Logo" src="https://github.com/user-attachments/assets/7a6299d9-678a-4559-927a-bcf231abddf9" />
+## Algorithmic approach through Code:
+
+(1) Find the min and max y coordinates of the needle 
+
+(2) Apply ceil to min y coordinate, ceil(min(y1, y2))
+
+(3) Apply floor to max y coordinate, floor(min(y1, y2))
+
+(4) If the result from 2 and 3 are not equal, needle does not intersect with lines
+
+(5) If the result from 2 and 3 are equal, needle intersect with line
