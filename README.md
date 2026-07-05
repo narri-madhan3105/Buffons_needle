@@ -60,3 +60,27 @@ We're gonna drop needles using the parametric equation of a Line
 (5) If the result from 2 and 3 are equal, needle intersect with line
 
 # Variance and Error Analysis:
+
+**The question which we need to discuss in Variance analysis is how consistent are repeated Monte Carlo estimates**
+The repeated simulations produced different estimates of π that were closely clustered around the true value. The low sample variance indicates that the Monte Carlo estimator exhibits low variability.., suggesting that on repetitions of the experiment it yields consistent estimates.
+
+  <img width="278" height="100" alt="Screenshot 2026-07-04 123622" src="https://github.com/user-attachments/assets/09e6614a-91c1-44c7-888a-8da01eaed24a" />
+
+we note all the pi estimates we got through repition of the simualtion over a large no of times then we calculate the Mean $\pi$ estimate , variance , error....
+
+To calculate the Average $\pi$ estimate we will use $\[
+\bar{\pi}=\frac{\pi_1+\pi_2+\cdots+\pi_n}{n}
+\]$
+
+$\text{Absolute Error} = \left| \hat{\pi} - \pi \right|$
+
+<img width="640" height="315" alt="variance analysis" src="https://github.com/user-attachments/assets/7580f6f1-16a5-4088-8ae2-3a65321d23d1" />
+
+The sample variance of the Monte Carlo estimates was 0.00123, indicating a very low variability... This observation is consistent with the narrow spread observed in our box plot
+
+To conclude, the variance analysis demonstrates that while individual Monte Carlo simulations produce slightly different estimates because of nature of randomness, the variability of these estimates remains small and many times negligible. This indicates that the Buffon's Needle method is reliable for a given  simulation size. **Larger simulations produce more consistent estimates.Also the error generally decreases as the number of simulations increases**.
+
+# Convergence plot - Tha Law of Large Numbers:
+The formal definition of the law of large numbers states that as the number of independent, identically distributed random variables increases, their sample mean converges to the true and expected value of the distribution
+
+In my words i say _Randomness on a large repetition leads to Certainity_ , which is quite fascinating  coz we are figuring out the probabilities of uncertain random stuff with the help of numerous repetitions
