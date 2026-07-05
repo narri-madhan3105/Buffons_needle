@@ -81,7 +81,7 @@ The sample variance of the Monte Carlo estimates was 0.00123, indicating a very 
 
 To conclude, the variance analysis demonstrates that while individual Monte Carlo simulations produce slightly different estimates because of nature of randomness, the variability of these estimates remains small and many times negligible. This indicates that the Buffon's Needle method is reliable for a given  simulation size. **Larger simulations produce more consistent estimates.Also the error generally decreases as the number of simulations increases**.
 
-# Convergence plot - Tha Law of Large Numbers:
+# Convergence plot - The Law of Large Numbers:
 The formal definition of the law of large numbers states that as the number of independent, identically distributed random variables increases, their sample mean converges to the true and expected value of the distribution
 
 In my words i say _Randomness on a large repetition leads to Certainity_ , which is quite fascinating  coz we are figuring out the probabilities of uncertain random stuff with the help of numerous repetitions  
