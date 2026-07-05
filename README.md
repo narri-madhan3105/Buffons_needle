@@ -132,4 +132,6 @@ This project was developed to explore Monte Carlo methods through Buffon's Needl
 Special acknowledgement to:
 
 - Georges-Louis Leclerc, Comte de Buffon, for the original Buffon's Needle problem.
+- https://github.com/KannamSridharKumar
+- https://github.com/PuspenduPH
 
