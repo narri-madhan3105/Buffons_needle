@@ -1,7 +1,7 @@
 
 # Estimating $\pi$ using Buffon's needle- A Monte Carlo Simulation
 ## Introduction:
-~ Buffons Needle , a classic _Geometrical Probability_ problem solved by **Monte Carlo Simulation**
+~ Buffon's Needle , a classic _Geometrical Probability_ problem solved by **Monte Carlo Simulation**
 This method in which drop needles on parallel lines is one of the first Monte Carlo methods for estimating $\pi$ .
 Infact Buffon's needle was one of the earliest problems in geometric probability to be solved.
 
@@ -11,7 +11,8 @@ $$
 P   = \frac{2}{\pi}
 $$ 
 
-where P is the final probability that a needle randomly dropped onto a surface will land across one of the parallel lines
+where P is the final probability that a needle randomly dropped onto a surface will land across one of the parallel lines.
+The formula relates the physical probability of a needle crossing a line to the geometric value of $\pi$, showing how random straight line drops can naturally uncover the curvature of a circle
 
 **Let me go through you a small derivation for deeper understanding of method** 
 <img width="402" height="358" alt="buffon ggl" src="https://github.com/user-attachments/assets/c6e4f2f7-4e82-4c22-856f-453220d97676" />
@@ -83,4 +84,29 @@ To conclude, the variance analysis demonstrates that while individual Monte Carl
 # Convergence plot - Tha Law of Large Numbers:
 The formal definition of the law of large numbers states that as the number of independent, identically distributed random variables increases, their sample mean converges to the true and expected value of the distribution
 
-In my words i say _Randomness on a large repetition leads to Certainity_ , which is quite fascinating  coz we are figuring out the probabilities of uncertain random stuff with the help of numerous repetitions
+In my words i say _Randomness on a large repetition leads to Certainity_ , which is quite fascinating  coz we are figuring out the probabilities of uncertain random stuff with the help of numerous repetitions  
+**Randomness + Repetition = Highly certain Probability** . Intuitionly Chaos at the micro-level becomes order at the macro-level.
+
+Convergence plot  shows how the estimator approaches π as the number of needle drops increases
+<img width="775" height="887" alt="buffons_graph" src="https://github.com/user-attachments/assets/737e3b62-08cd-4be1-baa5-5c5e34ffb560" />
+
+Our Convergence graph explains the convergence of the Monte Carlo estimate of π as the number of needle drops increases. At small sample sizes the estimate exhibits large fluctuations due to variation in sample size. As more and more simulations are performed the estimator  converges toward the true value of π. This behavior is consistent with the Law of Large Numbers, which states that sample based estimators become increasingly accurate as the number of observations increases
+
+# Discussion on Time Complexity of the Simulation:
+Suppose there are N needles:
+
+One iteration → O(1)
+
+N iterations → O(N)
+
+Runtime ∝ number of Needles
+
+**Time Complexity**
+
+Worst Case: O(N)
+
+Average Case: O(N)
+
+Best Case: O(N)
+
+since every needle must be dropped to calcute the required probability
