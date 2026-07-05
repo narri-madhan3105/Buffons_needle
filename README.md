@@ -136,7 +136,7 @@ Special acknowledgement to:
 - https://github.com/PuspenduPH
 ## License
 
-This project is shared for educational purposes. You are free to use, modify, and distribute the code for personal or academic use without requiring explicit permission.
+This project is shared for educational purposes. Feel free to use, modify, and distribute the code for personal or academic use without requiring explicit permission.
 
 ## Reference Links :
 https://en.wikipedia.org/wiki/Buffon's_needle_problem
