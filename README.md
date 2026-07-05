@@ -8,7 +8,7 @@ Infact Buffon's needle was one of the earliest problems in geometric probability
 The formula after simplifications and assumptions comes down to
 
 $$
-P   = \frac{2}{\pi}
+**P   = \frac{2}{\pi}**
 $$ 
 
 where P is the final probability that a needle randomly dropped onto a surface will land across one of the parallel lines.
