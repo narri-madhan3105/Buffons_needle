@@ -36,7 +36,7 @@ Considering needle length= distance between parallel lines i.e, _l_ = _t_
 
 
 $$
-P   = \frac{2}{\pi}
+**P   = \frac{2}{\pi}**
 $$
 
 # Estimation of $\pi$ : Finding probability
