@@ -17,7 +17,7 @@ The formula relates the physical probability of a needle crossing a line to the 
 **Let me go through you a small derivation for deeper understanding of method** 
 <img width="402" height="358" alt="buffon ggl" src="https://github.com/user-attachments/assets/c6e4f2f7-4e82-4c22-856f-453220d97676" />
 
-There's a plane containing parallel lines or strips with width _t_ , the needle we're gonna drop have a length _l_ and P is the final probability we need to calculate
+There's a plane containing parallel lines or strips with width _t_ , the needle we're dropping have a length _l_ and P is the final probability we need to calculate
  
 
 
@@ -79,13 +79,13 @@ $\text{Absolute Error} = \left| \hat{\pi} - \pi \right|$
 
 The sample variance of the Monte Carlo estimates was 0.00123, indicating a very low variability... This observation is consistent with the narrow spread observed in our box plot
 
-To conclude, the variance analysis demonstrates that while individual Monte Carlo simulations produce slightly different estimates because of nature of randomness, the variability of these estimates remains small and many times negligible. This indicates that the Buffon's Needle method is reliable for a given  simulation size. **Larger simulations produce more consistent estimates.Also the error generally decreases as the number of simulations increases**.
+To conclude, the variance analysis demonstrates that while individual Monte Carlo simulations produce slightly different estimates because of the nature of randomness, the variability of these estimates remains small and often negligible. This indicates that the Buffon's Needle method is reliable for a given  simulation size. **Larger simulations produce more consistent estimates.Also the error generally decreases as the number of simulations increases**.
 
 # Convergence plot - The Law of Large Numbers:
 The formal definition of the law of large numbers states that as the number of independent, identically distributed random variables increases, their sample mean converges to the true and expected value of the distribution
 
-In my words i say _Randomness on a large repetition leads to Certainity_ , which is quite fascinating  coz we are figuring out the probabilities of uncertain random stuff with the help of numerous repetitions  
-**Randomness + Repetition = Highly certain Probability** . Intuitionly Chaos at the micro-level becomes order at the macro-level.
+In my words i say _Randomness on a large repetition leads to Certainity_ , which is quite fascinating  because we are figuring out the probabilities of uncertain random stuff with the help of numerous repetitions  
+**Randomness + Repetition = Highly Predictible Probability** . Intuitively Chaos at the micro-level becomes order at the macro-level.
 
 Convergence plot  shows how the estimator approaches π as the number of needle drops increases
 <img width="775" height="887" alt="buffons_graph" src="https://github.com/user-attachments/assets/737e3b62-08cd-4be1-baa5-5c5e34ffb560" />
