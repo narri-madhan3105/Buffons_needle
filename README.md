@@ -115,7 +115,7 @@ since every needle must be dropped to calcute the required probability
 
 Since this is an example project, I'd encourage you to clone and rename this project to use for your own purposes. It's a good starter
 
-## Contributing
+## Contribution
 
 Contributions are welcome!
 
@@ -134,4 +134,12 @@ Special acknowledgement to:
 - Georges-Louis Leclerc, Comte de Buffon, for the original Buffon's Needle problem.
 - https://github.com/KannamSridharKumar
 - https://github.com/PuspenduPH
+## License
+
+This project is shared for educational purposes. You are free to use, modify, and distribute the code for personal or academic use without requiring explicit permission.
+
+## Reference Links :
+https://en.wikipedia.org/wiki/Buffon's_needle_problem
+
+https://www.ventrella.com/Buffon/index.html
 
