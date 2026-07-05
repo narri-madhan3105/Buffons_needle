@@ -110,3 +110,26 @@ Average Case: O(N)
 Best Case: O(N)
 
 since every needle must be dropped to calcute the required probability
+
+## How to tweak this project for your own uses
+
+Since this is an example project, I'd encourage you to clone and rename this project to use for your own purposes. It's a good starter
+
+## Contributing
+
+Contributions are welcome!
+
+If you discover a bug, identify an optimization, or have suggestions for improving the simulation or analysis, feel free to open an issue or submit a Pull Request.
+
+Feedback and enhancements are greatly appreciated.
+
+## Credits
+
+**Author:** Madhan Kumar
+
+This project was developed to explore Monte Carlo methods through Buffon's Needle experiment, with additional statistical analyses including convergence, variance, error, and computational performance.
+
+Special acknowledgement to:
+
+- Georges-Louis Leclerc, Comte de Buffon, for the original Buffon's Needle problem.
+
