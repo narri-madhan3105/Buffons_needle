@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 
 plt.style.use("dark_background")
 
-# ---------------- Parameters ----------------
-
 n_runs = 400
 needle_length = 1
 
@@ -18,8 +16,6 @@ yi = []
 xj = []
 yj = []
 hits = []
-
-# ---------------- Simulation ----------------
 
 for _ in range(n_runs):
 
@@ -34,7 +30,7 @@ for _ in range(n_runs):
     x2 = x1 + needle_length * np.cos(theta)
     y2 = y1 + needle_length * np.sin(theta)
 
-    # Check for intersection
+    # Checking for intersection
     if np.ceil(min(y1, y2)) == np.floor(max(y1, y2)):
             n_hits += 1
             hits.append(True)
@@ -46,9 +42,7 @@ for _ in range(n_runs):
     yi.append(y1)
     xj.append(x2)
     yj.append(y2)
-    
 
-# ---------------- Results ----------------
 
 prob = n_hits / n_runs
 pi_est = 2 / prob
@@ -59,7 +53,7 @@ print(f"Probability        : {prob:.5f}")
 print(f"Estimated π        : {pi_est:.6f}")
 print(f"Actual π           : {np.pi:.6f}")
 
-# ---------------- Plot ----------------
+# PLOT
 
 fig, ax = plt.subplots(figsize=(9,9))
 
