@@ -1,7 +1,7 @@
 
 # Estimating $\pi$ using Buffon's needle- A Monte Carlo Simulation
 ## Introduction:
-~ Buffons Needle , a classical _Geometrical Probability_ problem solved by **Monte Carlo Simulation**
+~ Buffons Needle , a classic _Geometrical Probability_ problem solved by **Monte Carlo Simulation**
 This method in which drop needles on parallel lines is one of the first Monte Carlo methods for estimating $\pi$ .
 Infact Buffon's needle was one of the earliest problems in geometric probability to be solved.
 
@@ -39,9 +39,15 @@ P   = \frac{2}{\pi}
 $$
 
 # Estimation of $\pi$ : Finding probability
-<img width="2000" height="2000" alt="Black and White Bold Typographic Music Studio Logo copy222" src="https://github.com/user-attachments/assets/057ae142-8cd2-4955-bbef-f489d9d0ddb8" />
+<img width="2000" height="2000" alt="Black and White Bold Typographic Music Studio Logo 333" src="https://github.com/user-attachments/assets/94389ca3-e47e-470b-8c03-3c4a14384a9f" />
+
 
 ## Algorithmic approach through Code:
+We're gonna drop needles using the parametric equation of a Line
+
+-> **x₂ = x₁ + _l_ cos(θ)**
+
+-> **y₂ = y₁ + _l_ sin(θ)**
 
 (1) Find the min and max y coordinates of the needle 
 
